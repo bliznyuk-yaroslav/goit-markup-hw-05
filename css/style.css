@@ -713,13 +713,13 @@ letter-spacing: 0.04;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-field-label-footer{
-    display: block;
+    display: flex;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .review-form-field-footer{
@@ -735,23 +735,25 @@ letter-spacing: 0.04;
     border: 1px solid var(--WHITE, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 transition:border-color 250 ms cubic-bezier(0.4, 0, 0.2, 1);
-padding-left: 16px;
 }
 .review-form-field-footer::placeholder{
+    display: block  ;
     color: var(--WHITE, #FFF);
     font-size: 12px;
     font-weight: 400;
     line-height: 2.0;
     letter-spacing: 0.04em;
+    padding-left: 16px ;
 }
 .form-footer-mail{
-    display: flex;
+   
     padding-left: 80px;
 }
 .footer-button-telegr{
     display:flex;
     width: 165px;
     height: 40px;
+    margin-left: 24px;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -766,6 +768,9 @@ padding-left: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-telegram{
+margin-left: 16px;
+fill: #F4F4FD;
+}
+.form-footer-list-link{
     display: flex;
-  margin-left: 100px;
 }
